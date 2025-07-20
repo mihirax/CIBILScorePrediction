@@ -4,7 +4,7 @@ A machine learning system that generates CIBIL-like credit scores for cryptocurr
 
 ## Objective
 
-Create a creditworthiness scoring system for crypto wallets that mimics traditional CIBIL scores (300-950 range), enabling financial institutions and DeFi protocols to assess wallet reliability and credit risk.
+Create a creditworthiness scoring system that mimics traditional CIBIL scores to assess wallet reliability and credit risk.
 
 ## Architecture Overview
 
@@ -92,7 +92,7 @@ Final Score = 300 + weighted_percentile_sum (capped at 950)
 ## Repository Structure
 
 ```
-crypto-cibil-score/
+CIBILScorePrediction/
 ├── main.py                     # Complete model pipeline
 ├── README.md                   # This file
 ├── analysis.md                 # Detailed wallet behavior analysis
@@ -103,8 +103,6 @@ crypto-cibil-score/
 │   ├── cibil_score_predictions.csv
 │   ├── feature_importance.csv
 │   └── cibil_analysis_plots.png
-└── notebooks/                  # Jupyter notebooks (optional)
-    └── exploratory_analysis.ipynb
 ```
 
 ## Quick Start
