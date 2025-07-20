@@ -97,12 +97,9 @@ CIBILScorePrediction/
 ├── README.md                   # This file
 ├── analysis.md                 # Detailed wallet behavior analysis
 ├── requirements.txt            # Python dependencies
-├── data/                       # Data directory
-│   └── user-wallet-transactions.json
-├── outputs/                    # Generated files
-│   ├── cibil_score_predictions.csv
-│   ├── feature_importance.csv
-│   └── cibil_analysis_plots.png
+├── user-wallet-transactions.json        # Data directory
+├── visualizations.png                   # Generated files
+
 ```
 
 ## Quick Start
