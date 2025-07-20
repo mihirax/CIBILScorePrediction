@@ -1,4 +1,4 @@
-# Crypto Wallet CIBIL Score Analysis
+# CIBIL Score Analysis
 
 This document provides a comprehensive analysis of the CIBIL scores generated for crypto wallets, including behavioral patterns, score distributions, and insights across different creditworthiness ranges.
 
